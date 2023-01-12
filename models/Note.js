@@ -1,6 +1,5 @@
 const mongoose = require("mongoose");
 const AutoIncrement = require("mongoose-sequence")(mongoose);
-const { v4: uuidv4 } = reqiore("uuid");
 
 const noteSchema = new mongoose.Schema(
   {
